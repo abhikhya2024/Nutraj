@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Environment variables
+.env
+*.env
+
+# Byte-compiled / cache
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/
+
+# Mac & Windows OS files
+.DS_Store
+Thumbs.db
+
+# Pip
+pip-log.txt
+
+# Migrations (optional: keep if versioning DB changes)
+*/migrations/__pycache__/
+*/migrations/*.pyc
